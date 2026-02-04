@@ -9,7 +9,6 @@ spec:
   type: service
   lifecycle: production
   owner: artist-relations-team
-apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: artist-relations-team
