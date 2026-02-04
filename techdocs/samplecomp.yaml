@@ -9,3 +9,16 @@ spec:
   type: service
   lifecycle: production
   owner: artist-relations-team
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: artist-relations-team
+  description: The infra business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: artist-relations-team
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
