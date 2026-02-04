@@ -9,6 +9,7 @@ spec:
   type: service
   lifecycle: production
   owner: artist-relations-team
+---
 kind: Group
 metadata:
   name: artist-relations-team
